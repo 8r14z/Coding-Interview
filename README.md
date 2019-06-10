@@ -16,7 +16,7 @@ let array2 = [7,2,6,8,1]
 // output = [7,2,1]
 ```
 
-### 2. Find anagrams in arrays
+### 2. Find anagrams in array
 Find all anagrams in input array and return all set of anagrams
 ```swift
 // "alee" - "eale" => anagrams
