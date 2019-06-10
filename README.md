@@ -1,4 +1,4 @@
-# Coding-Interview
+# Coding Interview
 All coding problems I have ever met so far when taking coding interview
 
 ### 1. Find intersection between 2 arrays
