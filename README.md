@@ -2,10 +2,13 @@
 All coding problems I have ever met so far when taking coding interview
 
 # Table of content:
-1. [Find intersection of 2 arrays](#problem1)
+1. [Find intersection of 2 arrays](#p1)
+2. [Find anagrams](#p2)
+3. [Remove duplicates in string](#p3)
+4. [2-sum](#4)
 
 
-### <a name="problem1"/>1. Find intersection between 2 arrays
+### <a name="p1"/>1. Find intersection between 2 arrays
 Write a function with input of 2 arrays and return another array contain all intersection between them.
 #### 1.1 Arrays are sorted
 ```swift
@@ -20,7 +23,7 @@ let array2 = [7,2,6,8,1]
 // output = [7,2,1]
 ```
 
-### 2. Find anagrams in array
+### <a name="p2"/>2. Find anagrams in array
 Find all anagrams in input array and return all set of anagrams
 ```swift
 // "alee" - "eale" => anagrams
@@ -31,14 +34,14 @@ let input = ["pear", "amleth", "dormitory", "tinsel", "dirty room", "hamlet", "l
 // output = ["amleth,hamlet", "dirty room,dormitory", "listen,silnet,tinsel", "pear"] // order is not considered
 ```
 
-### 3. Remove duplicated characters in string
+### <a name="p3"/>3. Remove duplicated characters in string
 Remove all duplicated characterd in a string and return another string
 ```swift
 let input = "abbdcde"
 // output = "abdce"
 ```
 
-### 4. 2-sum problem
+### <a name="p4"/>4. 2-sum problem
 Give input of array, find a pair of indexes make sum equal to `K`
 #### 4.1 Array is sorted
 ```swift
