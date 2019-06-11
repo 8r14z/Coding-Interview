@@ -5,7 +5,7 @@ All coding problems I have ever met so far when taking coding interview
 1. [Find intersection of 2 arrays](#p1)
 2. [Find anagrams](#p2)
 3. [Remove duplicates in string](#p3)
-4. [2-sum](#4)
+4. [2-sum](#p4)
 
 
 ### <a name="p1"/>1. Find intersection between 2 arrays
