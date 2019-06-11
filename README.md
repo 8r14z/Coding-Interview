@@ -1,7 +1,11 @@
 # Coding Interview
 All coding problems I have ever met so far when taking coding interview
 
-### 1. Find intersection between 2 arrays
+# Table of content:
+1. [Find intersection of 2 arrays](#problem1)
+
+
+### <a name="problem1"/>1. Find intersection between 2 arrays
 Write a function with input of 2 arrays and return another array contain all intersection between them.
 #### 1.1 Arrays are sorted
 ```swift
