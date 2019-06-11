@@ -6,6 +6,7 @@ All coding problems I have ever met so far when taking coding interview
 2. [Find anagrams](#p2)
 3. [Remove duplicates in string](#p3)
 4. [2-sum](#p4)
+5. [Slit message](#p5)
 
 
 ### <a name="p1"/>1. Find intersection between 2 arrays
@@ -55,4 +56,12 @@ let k = 9
 let input = [2,5,1,6,9]
 let k = 3
 // output = [0,2]
+```
+
+### <a name="p5"/>5. Slit message
+Slit a message to multiple messages with limit K. Do not slit mesage within a word.
+```swift
+let message = "This is a long message"
+let K = 7
+// output = ["This is", "a long", "message"]
 ```
