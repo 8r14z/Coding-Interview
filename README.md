@@ -7,6 +7,7 @@ All coding problems I have ever met so far when taking coding interview
 3. [Remove duplicates in string](#p3)
 4. [2-sum](#p4)
 5. [Slit message](#p5)
+6. [Next right of node in binary tree](#p6)
 
 
 ### <a name="p1"/>1. Find intersection between 2 arrays
@@ -65,3 +66,24 @@ let message = "This is a long message"
 let K = 7
 // output = ["This is", "a long", "message"]
 ```
+
+### <a name="p6"/>6. Return a next right of a node in binary tree
+Given a binary tree, can be assumed a perfected binary tree, and a node. Get the right node at the same level.
+```swift
+         1
+     2        3
+  4    5   6    7
+  
+class Node {
+  var left: Node?
+  var right: Node?
+  var parent: Node?
+}
+
+// input: node 5
+// output node 6
+```
+
+
+
+
