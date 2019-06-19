@@ -72,7 +72,7 @@ Given a binary tree, can be assumed a perfected binary tree, and a node. Get the
 ```swift
          1
      2        3
-  4    5   6    7
+  4    5   6     7
   
 class Node {
   var left: Node?
@@ -80,8 +80,12 @@ class Node {
   var parent: Node?
 }
 
+// input: node 4
+// output: node 5
+
 // input: node 5
 // output node 6
+
 ```
 
 
